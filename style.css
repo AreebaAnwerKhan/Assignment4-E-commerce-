@@ -1,0 +1,120 @@
+.navbar{
+    background-color:white !important;
+    box-shadow: 2px 4px 5px grey;
+}
+.nav-link{
+       font-weight: bold !important;
+       color: #dd3531 !important;
+}
+.fa-shopping-cart,.fa-user-circle-o{
+    font-size: 32px !important;
+    font-weight: bold !important;
+    color: #dd3531 !important;
+}
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+    font-size: 40px !important;
+    margin-right: 10px;
+    color: #dd3531 !important;
+    
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.mainCard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+}
+.newArrivals{
+    margin-top: 50px;
+}
+strike{
+    color: #dd3531 !important;
+}
+.card{
+    width: 200px;
+    height: auto !important;
+}
+.btn{
+    background-color: #dd3531 !important;
+    color: white;
+}
+.heading,.women{
+    text-align: center;
+    font-weight: bold;
+    color: #dd3531 !important;
+    margin: 20px;
+}
+.heading > h2{
+    text-shadow: 2px 2px 4px grey;
+}
+.footer{
+    width: 100%;
+    background-color: #dd3531 !important;
+    height: 120px;
+}
+.footer > div{
+    text-align: center !important;
+    align-items: center;
+}
+h4{
+    color: white;
+}
+.margin{
+    margin-left: 50px;
+}
+.para {
+    margin-left: 50px;
+}
+.carousel-item active,.carousel-item,.margin,.women{
+    margin-top: 85px !important;
+}
+.modal-title{
+    color: black !important;
+}
+/* footer things */
+.header-social-w3ls ul li {
+    display: inline-block;
+}
+
+.header-social-w3ls ul li a i {
+    height: 35px;
+    width: 35px;
+    font-size: 15px;
+    line-height: 2.2;
+    background: none;
+    text-align: center;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.header-social-w3ls ul li a i.fa-facebook {
+    background: #3b5998;
+}
+
+.header-social-w3ls ul li a i.fa-twitter {
+    background: #55acee;
+}
+
+.header-social-w3ls ul li a i.fa-google-plus {
+    background: #e53935;
+}
